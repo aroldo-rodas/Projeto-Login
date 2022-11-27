@@ -1,0 +1,61 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(fundo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#container {
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    border-radius: 10px;
+}
+
+img#perfil {
+    margin-top: -60px;
+    margin-bottom: 30px;
+}
+
+input {
+    height: 40px;
+    width: 80%;
+    font-size: 18px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+input#email, input#senha {
+    padding-left: 40px;
+}
+
+input#email {
+    background-image: url(icone-usuario.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+input#senha {
+    background-image: url(icone-cadeado.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+input#enviar {
+    width: 90%;
+    background-color: #f79300;;
+    border: 1px solid #db7d00;;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.287);
+}
+
+input#enviar:hover {
+    background-color:  #db7d00;
+    transition: 0.3s;
+}
